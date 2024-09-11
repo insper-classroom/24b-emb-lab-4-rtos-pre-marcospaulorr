@@ -86,7 +86,7 @@ void btn_2_task(void *p){
                 vTaskDelay(pdMS_TO_TICKS(1));
             }
             if (delay<1000){
-                delay+=100
+                delay+=100;
             } else{
                 delay = 100;
             }
